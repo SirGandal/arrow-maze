@@ -1,0 +1,109 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.tile {
+  /* background: #fff; */
+  border: 1px solid #999; 
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px; 
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.escape-tile{
+  background: rgb(9, 247, 171);
+}
+
+.starting-tile {
+  background: rgb(22, 153, 111);
+}
+
+.maze {
+  display: flex;
+  flex-direction: row;
+}
+
+.home {
+  background-image: url('images/home.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 34px;
+}
+
+.arrow {
+  background-image: url('images/arrow.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 34px;
+}
+
+.arrow-e {
+  /* placeholder, default arrow points east */
+}
+
+.arrow-se {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.arrow-s {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.arrow-sw {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.arrow-w {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.arrow-nw {
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+.arrow-n {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.arrow-ne {
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
