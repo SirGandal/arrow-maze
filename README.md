@@ -30,3 +30,7 @@ You receive on the first line the coordinates of the node where you will start a
 ### Output description
 
 You need to output the path to the center. 
+
+## Credits
+* Arrow icon made by [Eleonor Wang](https://www.flaticon.com/authors/eleonor-wang) from [www.flaticon.com ](www.flaticon.com).
+* Home icon made by [Dave Gandy](https://www.flaticon.com/authors/dave-gandy) from [www.flaticon.com ](www.flaticon.com).
